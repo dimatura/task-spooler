@@ -345,7 +345,7 @@ static void print_help(const char *cmd)
     printf("  TS_ENV  command called on enqueue. Its output determines the job information.\n");
     printf("  TS_SAVELIST  filename which will store the list, if the server dies.\n");
     printf("  TS_SLOTS   amount of jobs which can run at once, read on server start.\n");
-    printf("  TMPDIR     directory where to place the output files and the default socket.\n");
+    printf("  TS_TMPDIR     directory where to place the output files and the default socket.\n");
     printf("Actions:\n");
     printf("  -K       kill the task spooler server\n");
     printf("  -C       clear the list of finished jobs\n");

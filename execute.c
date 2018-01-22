@@ -158,7 +158,7 @@ static void run_child(int fd_send_filename)
     if (command_line.store_output)
     {
         /* Prepare path */
-        const char *tmpdir = getenv("TMPDIR");
+        const char *tmpdir = getenv("TS_TMPDIR");
         int lname;
         char *outfname_full;
 
